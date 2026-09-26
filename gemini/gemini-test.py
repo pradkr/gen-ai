@@ -3,6 +3,7 @@ from google.genai.types import HttpOptions, ModelContent, Part, UserContent
 import os
 from pathlib import Path
 
+
 def load_env_file(env_path=".env"):
     env_file = Path(env_path)
 
